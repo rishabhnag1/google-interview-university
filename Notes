@@ -1,0 +1,30 @@
+Asymptotic Notation
+
+1) CS50
+can't compare in seconds or minutes
+can measure in Big O
+as the size of your inputs increase, how does the run time of your program go
+ex. go through string one by one - Linear time
+O(n) - time required is proportional to n of chars
+store string length in var, accessing this var is:
+O(1) constant time - regardless of string length program will run same speed
+drawback is memory allocated, but its constant time
+that doesn't mean 1 step, that just means that its a constant run time
+O(n^2) is slower than O(n) eventually, for large input sizes
+for small input sizes you wont even notice
+O(log n) ex binary search
+binary search - looks at middle, determines if <=> than wanted element
+if equal great, if greater, right side, if lesser, left side, rinse and repeat
+cuts array size in half
+doubling size of array increases by only 1 operation
+you have to consider upper and lower bounds of run time
+best case the middle element is omega(1)
+worst case is O(logn)
+linear search - best omega(1), worst O(n)
+theta is used when best and worst is same
+theta(1) - access var
+
+2) Big Oh Notation (and Omega and Theta)
+
+
+
